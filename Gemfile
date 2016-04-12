@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby "2.2.3"
 
+gem "datetime_picker_rails", "~> 0.0.8", git: "https://github.com/phuphighter/datetime_picker_rails.git"
+
 gemspec
 
 gem "delayed_job_active_record"

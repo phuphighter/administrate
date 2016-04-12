@@ -1,9 +1,15 @@
+GIT
+  remote: https://github.com/phuphighter/datetime_picker_rails.git
+  revision: 2aa3d3486ffb9ce7443953a4b0ef3c0a1a0acf55
+  specs:
+    datetime_picker_rails (0.0.8)
+      momentjs-rails (>= 2.8.1)
+
 PATH
   remote: .
   specs:
     administrate (0.1.5)
       autoprefixer-rails (~> 6.0)
-      datetime_picker_rails (~> 0.0.7)
       jquery-rails (~> 4.0)
       kaminari (~> 0.16)
       momentjs-rails (~> 2.8)
@@ -86,8 +92,6 @@ GEM
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     database_cleaner (1.5.1)
-    datetime_picker_rails (0.0.7)
-      momentjs-rails (>= 2.8.1)
     debug_inspector (0.0.2)
     delayed_job (4.1.1)
       activesupport (>= 3.0, < 5.0)
@@ -303,6 +307,7 @@ DEPENDENCIES
   bundler-audit
   byebug
   database_cleaner
+  datetime_picker_rails (~> 0.0.8)!
   delayed_job_active_record
   dotenv-rails
   factory_girl_rails
